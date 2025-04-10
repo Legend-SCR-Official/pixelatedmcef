@@ -67,3 +67,14 @@ To run the Fabric client: `./gradlew fabricClient`
 To run the NeoForge client: `./gradlew neoforgeClient`
 
 In-game, there is a demo browser if you press F10 after you're loaded into a world (the demo browser only exists when you're running from a development environment).
+
+
+
+
+
+
+
+
+
+
+The modifications use a tad bit of AI generated code (I do not have sufficient Java knowledge to do this by myself, but I'm working on learning :P)

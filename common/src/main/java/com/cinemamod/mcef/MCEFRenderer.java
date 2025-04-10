@@ -33,7 +33,15 @@ public class MCEFRenderer {
     protected MCEFRenderer(boolean transparent) {
         this.transparent = transparent;
     }
+private ShaderProgram pixelationShader;
 
+    public void init() {
+        pixelationShader = new ShaderProgram(
+            "pixelate",
+            VERTEX_SHADER_CODE,
+            FRAGMENT_SHADER_CODE
+        );
+    }
     public void initialize() {
         textureID[0] = glGenTextures();
         RenderSystem.bindTexture(textureID[0]);
